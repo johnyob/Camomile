@@ -21,6 +21,6 @@
 
 (executable
  (name camomilelocaledef)
- (libraries toolslib camomile.library)
+ (libraries camlp-streams toolslib camomile.library)
  (flags -I Camomile :standard)
  (modules camomilelocaledef camomilelocaledef_lexer))
